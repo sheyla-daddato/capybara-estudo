@@ -1,5 +1,5 @@
 DADOS = {
-    'username' => 'sheyla'
+    'username' => 'sheyla',
     'password' => 'teste'
 
 }
