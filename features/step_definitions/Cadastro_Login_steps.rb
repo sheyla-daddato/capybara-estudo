@@ -19,7 +19,12 @@ Então("sou direcionado para a tela de validar Login") do
     @cadastro.acessar_demologin
 end
 
-Dado("preencho os campos com login criado") do
+Dado("que estou na tela de validar login") do
+    @cadastro = CadastroPage.new
+    @cadastro.acessar_url_login
+end
+
+Quando("preencho os campos com login criado") do
     @cadastro.preencher_login_criado
 end
 

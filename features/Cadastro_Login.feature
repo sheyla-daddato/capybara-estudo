@@ -18,5 +18,6 @@ Entao sou direcionado para a tela de validar Login
 
 @criacao_login_sucesso
 Cenario: Validar Login
-Dado preencho os campos com login criado
+Dado que estou na tela de validar login
+Quando preencho os campos com login criado
 Entao recebo mensagem de sucesso

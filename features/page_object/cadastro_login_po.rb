@@ -26,7 +26,12 @@ class CadastroPage
 
     def acessar_demologin
         page.has_content? ('4. Login')
-        
+
+    end
+    
+    def acessar_url_login
+        visit 'http://thedemosite.co.uk/login.php'
+
     end
 
     def preencher_login_criado
